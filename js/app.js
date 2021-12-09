@@ -25,7 +25,7 @@ class UI{
         clientes.forEach((cliente, index) => {
             const {nombre, pulgar, indice, mayor, anular, menique, largo} = cliente;
             const divCard = document.createElement('div');
-            divCard.classList.add('card', 'ml-3','mt-1', 'col-md-6', 'p-0','text-light', 'bg-warning');
+            divCard.classList.add('card', 'ml-3','mt-1', 'col-md-6', 'p-0','text-light', 'bg-primary');
             divCard.innerHTML = `
                 <div class="card-header">
                     <p>${nombre}</p>
